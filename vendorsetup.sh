@@ -2,7 +2,7 @@ export ALLOW_MISSING_DEPENDENCIES=true
 
 # Some about us
 export FOX_MAINTAINER_PATCH_VERSION=0
-export OF_MAINTAINER="Klaus_Mikaelson"
+export OF_MAINTAINER="Sathiya_Senpai"
 
 # Build environment stuffs
 export FOX_BUILD_DEVICE="Nord 4"
