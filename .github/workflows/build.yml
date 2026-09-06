@@ -16,23 +16,23 @@ on:
       DEVICE_TREE:
         description: 'OrangeFox Device Tree'
         required: true
-        default: 'https://github.com/r0xx3z/recovery_device_xiaomi_agate-OFRP'
+        default: 'https://github.com/s48869052-ops/device_oneplus_avalon-TWRP'
       DEVICE_TREE_BRANCH:
         description: 'OrangeFox Device Tree Branch'
         required: true
-        default: 'android-14.1'
+        default: 'ofox'
       DEVICE_PATH:
         description: 'Specify your Device Path'
         required: true
-        default: 'device/xiaomi/agate'
+        default: 'device/oneplus/avalon'
       DEVICE_NAME:
         description: 'Specify your Device Codename'
         required: true
-        default: 'agate'
+        default: 'avalon'
       BUILD_TARGET:
         description: 'Specify your Build Target'
         required: true
-        default: 'boot'
+        default: 'recovery'
 
 jobs:
   build:
