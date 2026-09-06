@@ -85,9 +85,7 @@ jobs:
         source build/envsetup.sh
         export ALLOW_MISSING_DEPENDENCIES=true
         set -e
-        # Update the lunch command to include a release string like trunk_staging
-        lunch twrp_${{ inputs.DEVICE_NAME }}-trunk_staging-eng && make clean && mka adbd ${{ inputs.BUILD_TARGET }}image
-   
+        lunch twrp_${{ inputs.DEVICE_NAME }}-ap2a-eng && make clean && mka adbd ${{ inputs.BUILD_TARGET }}image   
     - name: ⏰ Set Release Properties
       run: |
         echo "BUILD_DATE=$(TZ=Asia/Manila date +%Y%m%d)" >> $GITHUB_ENV
