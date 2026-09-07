@@ -12,15 +12,15 @@ on:
       MANIFEST_BRANCH:
         description: 'OrangeFox Manifest Branch'
         required: true
-        default: '14.1'
+        default: '12.1'
       DEVICE_TREE:
         description: 'OrangeFox Device Tree'
         required: true
-        default: 'https://github.com/s48869052-ops/device_oneplus_avalon-TWRP'
+        default: 'https://github.com/s48869052-ops/device_oneplus_avalon-OFRP'
       DEVICE_TREE_BRANCH:
         description: 'OrangeFox Device Tree Branch'
         required: true
-        default: 'ofox'
+        default: 'fox_12.1'
       DEVICE_PATH:
         description: 'Specify your Device Path'
         required: true
