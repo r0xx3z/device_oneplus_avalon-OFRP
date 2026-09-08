@@ -19,6 +19,9 @@ BOARD_VENDOR := oneplus
 # Device path for OEM device tree
 DEVICE_PATH := device/oneplus/avalon
 
+# Inherit from fox_avalon configs
+$(call inherit-product, device/xiaomi/agate/fox_avalon.mk)
+
 ## Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := avalon
 PRODUCT_NAME := twrp_avalon

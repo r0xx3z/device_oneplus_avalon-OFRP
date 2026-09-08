@@ -42,7 +42,7 @@ export OF_DYNAMIC_FULL_SIZE=9126805504
 # Binaries & Tools
 export OF_ADVANCED_SECURITY=1
 export FOX_BASH_TO_SYSTEM_BIN=1
-export FOX_USE_LZ4_COMPRESSION=1
+export OF_USE_LZ4_COMPRESSION=1
 export FOX_USE_ZIP_BINARY=1
 export FOX_USE_BUSYBOX_BINARY=1
 export FOX_USE_NANO_EDITOR=1
@@ -54,8 +54,8 @@ export FOX_DELETE_AROMAFM=1
 
 # Maintainer & Build Info
 export FOX_BUILD_TYPE="Testing"
-export FOX_MAINTAINER_PATCH_VERSION="3"
-export OF_MAINTAINER="Sathiya_Senpai"
+export FOX_MAINTAINER_PATCH_VERSION="0"
+export OF_MAINTAINER="Enteryourname"
 	
 else
    if [ -z "$FOX_BUILD_DEVICE" -a -z "$BASH_SOURCE" ]; then

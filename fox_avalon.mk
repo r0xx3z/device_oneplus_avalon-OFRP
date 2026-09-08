@@ -39,11 +39,14 @@ OF_OPTIONS_LIST_NUM=8
 # OTA (Modified for custom ROMs & Decryption)
 OF_KEEP_DM_VERITY_FORCED_ENCRYPTION := 1
 OF_KEEP_DM_VERITY := 0
-OF_SUPPORT_ALL_BLOCK_OTA_UPDATES := 1
+# OF_SUPPORT_ALL_BLOCK_OTA_UPDATES := 1
 OF_FIX_OTA_UPDATE_MANUAL_FLASH_ERROR := 1
 
 # f2fs compression
 OF_ENABLE_FS_COMPRESSION := 1
+
+# FRP
+OF_ENABLE_FRP_ADDON := 1
 
 # Maximun permissible splash image size (in kilobytes); do "NOT" increase
 OF_SPLASH_MAX_SIZE := "130"

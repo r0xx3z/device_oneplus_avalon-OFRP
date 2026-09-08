@@ -16,7 +16,7 @@ on:
       DEVICE_TREE:
         description: 'OrangeFox Device Tree'
         required: true
-        default: 'https://github.com/s48869052-ops/device_oneplus_avalon-OFRP'
+        default: 'https://github.com/username/device_oneplus_avalon-OFRP'
       DEVICE_TREE_BRANCH:
         description: 'OrangeFox Device Tree Branch'
         required: true
